@@ -33,4 +33,4 @@ copia.close()
 call(['rm '+cwd+'/practica_creativa2/bookinfo/src/productpage/templates/productpage1.html'],shell=True)
 
 #Lanzamos la aplicacion
-call(["sudo python3 practica_creativa2/bookinfo/src/productpage/productpage_monolith.py 9070"], shell=True)
+call(["sudo python3 practica_creativa2/bookinfo/src/productpage/productpage_monolith.py 80"], shell=True)
